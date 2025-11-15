@@ -17,7 +17,7 @@ export const slideData = [
     },
     {
         backgroundColour: 'red',
-        
+        text: 'This is the fifth slide'
     },
     {
         backgroundColour: 'green',

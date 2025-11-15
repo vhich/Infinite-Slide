@@ -16,7 +16,8 @@ window.onload=()=>{
         slide.id = slide.backgroundColour
         const slideEl = document.createElement('div')
         slideEl.className = 'slide'
-        slideEl.innerHTML = `<h1>This slide has a ${slide.backgroundColour} background</h1>`
+        slideEl.innerHTML = `<h1>This slide has a ${slide.backgroundColour} background</h1>
+        <p>${slide.text ? slide.text : ''}</p>`
         slideEl.style.backgroundColor = slide.backgroundColour
 
         const slidePagination = document.createElement('button')
