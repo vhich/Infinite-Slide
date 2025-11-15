@@ -12,6 +12,9 @@ export const slideData = [
         backgroundColour: 'lightsalmon'
     },
     {
+        backgroundColour: 'red'
+    },
+    {
         backgroundColour: 'green'
     },
     {
