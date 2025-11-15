@@ -1,23 +1,31 @@
 export const slideData = [
     {
-        backgroundColour: 'khaki'
+        backgroundColour: 'khaki',
+        backgroundColour: 'blue',
+        text: `This is the first slide with ${this.backgroundColour} background.`
     },
     {
-        backgroundColour: 'orange'
+        backgroundColour: 'orange',
+        text: `This is the second slide with ${this.backgroundColour} background.`
     },
     {
-        backgroundColour: 'blue'
+        backgroundColour: 'blue',
+        text: `This is the third slide with ${this.backgroundColour} background.`
     },
     {
-        backgroundColour: 'lightsalmon'
+        backgroundColour: 'lightsalmon',
+        text: `This is the fourth slide with ${this.backgroundColour} background.`
     },
     {
-        backgroundColour: 'red'
+        backgroundColour: 'red',
+        text: `This is the fifth slide with ${this.backgroundColour} background.`
     },
     {
-        backgroundColour: 'green'
+        backgroundColour: 'green',
+        text: `This is the sixth slide with ${this.backgroundColour} background.`
     },
     {
-        backgroundColour: 'magenta'
+        backgroundColour: 'magenta',
+        text: `This is the seventh slide with ${this.backgroundColour} background.`
     },
 ]
